@@ -1,0 +1,288 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f59144ee-3568-4fad-be15-11b1066c86b7
+  bundle: varbase_blog
+  default_langcode: en
+  depends:
+    aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
+    b45820f4-7a2f-48f7-9869-0a48a26330d1: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Edited as a part of bulk operation. Field changed: field_blog_categories'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Lorem Ipsum Dolor Sit Amet'
+  created:
+    -
+      value: 1713454416
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Lorem Ipsum Dolor Sit Amet | varbase10c1varbase_media_demo'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.'
+    -
+      tag: meta
+      attributes:
+        name: abstract
+        content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/node'
+    -
+      tag: link
+      attributes:
+        rel: shortlink
+        href: 'http://default/node/1'
+    -
+      tag: meta
+      attributes:
+        name: generator
+        content: Varbase
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: origin
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: '©2024 varbase10c1varbase_media_demo. All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: varbase10c1varbase_media_demo
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/node'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '| varbase10c1varbase_media_demo'
+    -
+      tag: meta
+      attributes:
+        property: 'og:description'
+        content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://default/sites/default/files/styles/social_large/public/2024-04/coworking-2.webp?h=74328444&itok=7vBrm-3k'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://default/sites/default/files/styles/social_large/public/2024-04/coworking-2.webp?h=74328444&itok=7vBrm-3k'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '| varbase10c1varbase_media_demo'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:description'
+        content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: BlogPosting
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: headline
+        content: 'Lorem Ipsum Dolor Sit Amet'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: image
+        content:
+          '@type': ImageObject
+          url: 'http://default/sites/default/files/styles/social_large/public/2024-04/coworking-2.webp?h=74328444&itok=7vBrm-3k'
+          width: '1200'
+          height: '630'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: datePublished
+        content: '2024-04-18T18:33:36+0300'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: dateModified
+        content: '2024-04-18T18:49:13+0300'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: author
+        content:
+          '@type': Person
+          url: 'http://default/user/1'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Organization
+          '@id': 'http://default/'
+          name: varbase10c1varbase_media_demo
+          url: 'http://default/'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: mainEntityOfPage
+        content: 'http://default/node'
+        group: schema_article
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: varbase10c1varbase_media_demo
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'http://default/'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Organization
+          name: varbase10c1varbase_media_demo
+          url: 'http://default/'
+          logo:
+            '@type': ImageObject
+            url: 'http://default/themes/contrib/vartheme_bs5/logo.png'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: MobileOptimized
+        content: width
+    -
+      tag: meta
+      attributes:
+        name: HandheldFriendly
+        content: 'true'
+    -
+      tag: meta
+      attributes:
+        name: apple-mobile-web-app-capable
+        content: 'yes'
+  path:
+    -
+      alias: /blog/lorem-ipsum-dolor-sit-amet-6
+      langcode: en
+      pathauto: 1
+  publish_state:
+    -
+      value: published
+  unpublish_state:
+    -
+      value: archived
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur, neque quis cursus dapibus, dui odio consectetur ipsum, non placerat orci dui ut nulla. Suspendisse ultrices eros sit amet volutpat convallis. Mauris sed molestie enim. Fusce vel nulla in nisl vestibulum consectetur at nec lorem. Pellentesque posuere mollis purus id pretium. Integer euismod a leo dictum mollis. Mauris vel diam vitae mi congue tincidunt. Proin a lacus mauris. Aliquam erat volutpat. Duis ut interdum neque. Integer viverra pharetra gravida. Cras mollis pretium aliquet. Sed sed suscipit lorem, vitae aliquet leo. Curabitur bibendum quis lectus in rhoncus. Praesent eget vehicula nibh.</p><p>Fusce varius, arcu vel tincidunt pharetra, ex magna feugiat libero, a dictum nibh erat vel lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris molestie quis ex non cursus. Pellentesque ullamcorper mi ligula. Fusce quam dui, cursus eget neque non, fringilla rhoncus ante. Nulla facilisi. Etiam dictum fermentum arcu non ultrices. Donec elementum mauris quis turpis maximus feugiat. Aliquam erat volutpat.</p><p>Sed at dui eu ante rhoncus laoreet eget eu est. Phasellus efficitur lectus risus, non mollis odio sodales quis. Integer et pulvinar dui. Fusce mattis odio quis sapien bibendum pretium. Vivamus vestibulum sed sapien id posuere. Nunc quis elit massa. In blandit augue ac felis lobortis sodales quis at nulla. Ut fringilla augue justo, sit amet maximus velit egestas vel. Mauris tincidunt enim ligula, sit amet porttitor nisi ullamcorper et. Aliquam vel consectetur nulla. Vivamus varius dolor ac lectus blandit volutpat. Mauris ornare erat ipsum, non rhoncus lectus efficitur vel.</p><p>Aliquam erat volutpat. In fermentum at enim vel finibus. Morbi hendrerit ipsum ac posuere feugiat. Fusce blandit dignissim purus, vel euismod mi tincidunt et. Phasellus nec nisi interdum, posuere quam non, euismod felis. Duis ac ipsum condimentum risus egestas dignissim. Sed eget erat a sem venenatis lacinia. Suspendisse pulvinar vitae justo sed suscipit. Nullam nibh neque, tempor eu dictum at, mollis eu eros.</p><p>Maecenas enim odio, tempor nec justo sed, commodo venenatis odio. Nam ornare, quam non imperdiet pulvinar, tortor mauris auctor elit, in tincidunt diam ex at metus. Fusce auctor nisi sapien, in tempor neque venenatis vitae. Morbi congue vel nibh maximus bibendum. Sed mollis erat viverra, tristique orci eu, fermentum metus. Cras scelerisque, est id pellentesque euismod, diam velit dictum mi, id bibendum erat ex in ligula. Ut ac magna pretium, elementum est a, sagittis metus. Aenean blandit eu justo nec scelerisque. Donec nec purus non mauris iaculis viverra.</p>'
+      format: full_html
+      summary: ''
+  field_blog_categories:
+    -
+      entity: aca281a0-0968-4603-87b3-678d2781e275
+  field_media:
+    -
+      entity: b45820f4-7a2f-48f7-9869-0a48a26330d1
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+  layout_selection:
+    -
+      target_id: lead_media_1_column

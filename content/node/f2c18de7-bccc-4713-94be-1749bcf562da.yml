@@ -1,0 +1,171 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f2c18de7-bccc-4713-94be-1749bcf562da
+  bundle: varbase_heroslider
+  default_langcode: en
+  depends:
+    ac0a336c-2904-4661-8eb6-f3cb19669367: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created new Hero slider'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Varbase; Better Than Ever'
+  created:
+    -
+      value: 1713686599
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Varbase; Better Than Ever | varbase10c1varbase_media_demo'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/node'
+    -
+      tag: link
+      attributes:
+        rel: shortlink
+        href: 'http://default/node/1'
+    -
+      tag: meta
+      attributes:
+        name: generator
+        content: Varbase
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: origin
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: '©2024 varbase10c1varbase_media_demo. All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: varbase10c1varbase_media_demo
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: article
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/node'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '| varbase10c1varbase_media_demo'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary_large_image
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '| varbase10c1varbase_media_demo'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: varbase10c1varbase_media_demo
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'http://default/'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Organization
+          name: varbase10c1varbase_media_demo
+          url: 'http://default/'
+          logo:
+            '@type': ImageObject
+            url: 'http://default/themes/contrib/vartheme_bs5/logo.png'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: MobileOptimized
+        content: width
+    -
+      tag: meta
+      attributes:
+        name: HandheldFriendly
+        content: 'true'
+    -
+      tag: meta
+      attributes:
+        name: apple-mobile-web-app-capable
+        content: 'yes'
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_brief:
+    -
+      value: "Elevate your digital experience with Varbase's dynamic design system, seamlessly blending aesthetic appeal with unparalleled functionality. Unleash the power of intuitive design for a compelling web presence."
+  field_link:
+    -
+      uri: 'internal:#'
+      title: 'Read more'
+      options: {  }
+  field_media_single:
+    -
+      entity: ac0a336c-2904-4661-8eb6-f3cb19669367

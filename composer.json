@@ -1,0 +1,30 @@
+{
+  "name": "drupal/varbase_demo",
+  "description": "If you're evaluating Varbase, installing demo content will help you get an idea of how Varbase works, and what features are included.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/varbase_demo",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/varbase_demo",
+    "source": "https://git.drupalcode.org/project/varbase_demo"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/core": "~10",
+    "drupal/varbase_media": "~10",
+    "drupal/varbase_media_demo": "~1"
+  }
+}

@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * Contains varbase_demo.module.
+ */
+
+/**
+ * Implements hook_modules_installed().
+ */
+function varbase_demo_modules_installed($modules, $is_syncing) {
+
+  // After the Varbase Demo module finishes installing.
+  // And all default content nodes are imported.
+  // Add the default Varbase Hero Slider to the Varbase Hero Slider Entity sub queue.
+  if (in_array('varbase_demo', $modules)) {
+    $varbase_heroslider_items = [
+      '90eef39c-3a53-4575-8aac-0d89241b35ec',
+      'f2c18de7-bccc-4713-94be-1749bcf562da',
+      '5bffab28-b4db-4ec6-a3ac-751fde856870',
+    ];
+
+    $varbase_heroslider_entity_queue = \Drupal::entityTypeManager()->getStorage('entity_subqueue')->load('varbase_heroslider');
+    foreach ($varbase_heroslider_items as $varbase_heroslider_item_uuid) {
+      $varbase_heroslider_node = \Drupal::service('entity.repository')->loadEntityByUuid('node', $varbase_heroslider_item_uuid);
+      $varbase_heroslider_entity_queue->addItem($varbase_heroslider_node);
+      $varbase_heroslider_entity_queue->save();
+    }
+  }
+}
