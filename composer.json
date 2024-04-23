@@ -25,6 +25,6 @@
   "require": {
     "drupal/core": "~10",
     "drupal/varbase_media": "~10",
-    "drupal/varbase_media_demo": "~1"
+    "drupal/varbase_media_demo": "~10"
   }
 }
