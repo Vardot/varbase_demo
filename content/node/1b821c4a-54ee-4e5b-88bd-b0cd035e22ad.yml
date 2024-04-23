@@ -1,12 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: node
-  uuid: 588db700-2dfd-4ead-ab4b-1b822fb46f2b
+  uuid: 1b821c4a-54ee-4e5b-88bd-b0cd035e22ad
   bundle: varbase_blog
   default_langcode: en
   depends:
-    aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
-    5435d1ce-9ef1-4fbc-bcca-047c72a3369e: media
+    59d9ce37-b406-4b0d-8f7c-6002f3447554: media
 default:
   revision_uid:
     -
@@ -55,16 +54,10 @@ default:
       value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><hr><p>Cras vel augue at arcu sagittis malesuada. Vestibulum id purus urna. Pellentesque pulvinar in justo in semper. Fusce elit metus, tempor eu pellentesque facilisis, blandit id est. Quisque id ex ligula. Aliquam at velit vitae purus rutrum dignissim nec ac sapien. Mauris sed velit non neque porta euismod vitae ac mauris. Vivamus molestie eleifend ligula ac maximus.</p><blockquote><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non sapien lacinia, pellentesque elit sit amet, tempor orci.</strong></p><p>Quotee Name and Position</p></blockquote><p>Aenean velit augue, feugiat vel lectus et, aliquet ultrices mi. Nulla facilisi. Duis ornare, nisi eu sagittis luctus, enim lectus rhoncus enim, et blandit nisl dolor sit amet dui. Cras convallis malesuada ligula, in ullamcorper elit consectetur vitae. Donec maximus posuere sapien ac mollis. Nulla pellentesque, ligula eu volutpat efficitur, mauris neque consequat justo, quis vehicula erat ligula eu erat. Nam varius imperdiet tellus, eu placerat turpis tristique nec. Ut dignissim est ut facilisis viverra.</p><p>Donec pretium lectus ipsum, vitae faucibus justo blandit vel. Quisque maximus dignissim orci, id placerat magna pretium congue. Duis ac orci turpis. Nulla fermentum feugiat leo, vel venenatis nisl volutpat tincidunt. Nunc vestibulum faucibus urna, et placerat lacus. Aenean ac cursus lorem. Quisque varius nulla nec ipsum fringilla interdum. Sed ut velit dictum, scelerisque urna quis, aliquam urna. Donec sit amet magna semper, cursus urna ac, commodo libero. Nullam eu maximus erat. Vivamus sed ante in eros porttitor eleifend id a ante. Suspendisse dignissim tortor non egestas molestie. Etiam sed ultricies lectus. Donec elementum dolor sit amet diam egestas aliquam.</p><p>Pellentesque molestie libero sed augue gravida malesuada. Cras et erat augue. Maecenas libero velit, mollis non molestie sit amet, dignissim id tellus. Cras nec lobortis massa. Vestibulum condimentum suscipit fringilla. Donec risus magna, tincidunt eget nisi a, egestas lacinia sem. Quisque accumsan ex non mollis gravida.</p>'
       format: full_html
       summary: ''
-  field_blog_categories:
-    -
-      entity: aca281a0-0968-4603-87b3-678d2781e275
   field_media:
     -
-      entity: 5435d1ce-9ef1-4fbc-bcca-047c72a3369e
+      entity: 59d9ce37-b406-4b0d-8f7c-6002f3447554
   field_yoast_seo:
     -
       status: '0'
       focus_keyword: ''
-  layout_selection:
-    -
-      target_id: lead_media_1_column
