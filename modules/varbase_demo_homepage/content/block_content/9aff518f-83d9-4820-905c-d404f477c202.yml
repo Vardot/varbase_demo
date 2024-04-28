@@ -5,7 +5,7 @@ _meta:
   bundle: varbase_featured_card_block
   default_langcode: en
   depends:
-    b45820f4-7a2f-48f7-9869-0a48a26330d1: media
+    b45820f4-7a2f-48f7-9869-0a48a26330d2: media
 default:
   revision_user:
     -
@@ -32,4 +32,4 @@ default:
       summary: ''
   field_media:
     -
-      entity: b45820f4-7a2f-48f7-9869-0a48a26330d1
+      entity: b45820f4-7a2f-48f7-9869-0a48a26330d2

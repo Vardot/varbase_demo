@@ -4,4 +4,5 @@ type: module
 hidden: TRUE
 package: Varbase
 core_version_requirement: ~10
-dependencies: {  }
+dependencies:
+  - default_content:default_content
