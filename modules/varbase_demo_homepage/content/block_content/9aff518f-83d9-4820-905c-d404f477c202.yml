@@ -1,7 +1,7 @@
 _meta:
   version: '1.0'
   entity_type: block_content
-  uuid: e95ba8a9-fcfa-4871-90cd-070a8605843c
+  uuid: 9aff518f-83d9-4820-905c-d404f477c202
   bundle: varbase_featured_card_block
   default_langcode: en
   depends:
@@ -25,18 +25,6 @@ default:
   revision_translation_affected:
     -
       value: true
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
-  content_translation_uid:
-    -
-      target_id: 1
-  content_translation_created:
-    -
-      value: 1713686840
   body:
     -
       value: '<p>Varbase comes with top security standards for an enterprise-security level website. You will find Password Policy, Security Review, Security Kit, and Username Enumeration Prevention are installed and configured to secure your site. Honeypot is also being used to lock your forms from spam bots.</p>'

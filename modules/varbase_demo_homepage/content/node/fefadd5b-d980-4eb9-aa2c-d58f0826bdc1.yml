@@ -5,7 +5,7 @@ _meta:
   bundle: landing_page_lb
   default_langcode: en
   depends:
-    e95ba8a9-fcfa-4871-90cd-070a8605843c: block_content
+    9aff518f-83d9-4820-905c-d404f477c202: block_content
     22f38214-3cc5-4d4d-b0f5-7f6e2c7e7103: block_content
 default:
   revision_uid:
@@ -25,7 +25,7 @@ default:
       value: Homepage
   created:
     -
-      value: 1713432063
+      value: 1714303693
   promote:
     -
       value: false
@@ -49,12 +49,6 @@ default:
   unpublish_state:
     -
       value: archived
-  content_translation_source:
-    -
-      value: und
-  content_translation_outdated:
-    -
-      value: false
   field_yoast_seo:
     -
       status: '0'
@@ -819,8 +813,8 @@ default:
           gutters_between: null
           context_mapping: {  }
         components:
-          3f77264f-981d-4d76-b1d6-590c820df99b:
-            uuid: 3f77264f-981d-4d76-b1d6-590c820df99b
+          e3e38c1f-794e-4371-827d-dbe0199f99f4:
+            uuid: e3e38c1f-794e-4371-827d-dbe0199f99f4
             region: blb_region_col_1
             configuration:
               id: 'inline_block:varbase_featured_card_block'
@@ -828,102 +822,12 @@ default:
               label_display: 0
               provider: layout_builder
               view_mode: full
-              block_revision_id: '3'
+              block_revision_id: '11'
               block_serialized: null
               context_mapping: {  }
             weight: 0
             additional:
-              bootstrap_styles:
-                block_style:
-                  background:
-                    background_type: null
-                  background_color:
-                    class: null
-                  background_media:
-                    image:
-                      media_id: null
-                    video:
-                      media_id: null
-                    background_options:
-                      background_position: center
-                      background_repeat: no-repeat
-                      background_attachment: not_fixed
-                      background_size: cover
-                  background_edgetoedge: false
-                  text_color:
-                    class: null
-                  text_alignment:
-                    class: null
-                  padding:
-                    class: _none
-                  padding_left:
-                    class: _none
-                  padding_top:
-                    class: _none
-                  padding_right:
-                    class: _none
-                  padding_bottom:
-                    class: _none
-                  margin:
-                    class: _none
-                  margin_left:
-                    class: _none
-                  margin_top:
-                    class: _none
-                  margin_right:
-                    class: _none
-                  margin_bottom:
-                    class: _none
-                  horizontal_alignment:
-                    class: null
-                  vertical_alignment:
-                    class: null
-                  border:
-                    border_style:
-                      class: null
-                    border_width:
-                      class: _none
-                    border_color:
-                      class: null
-                    rounded_corners:
-                      class: _none
-                    border_left_style:
-                      class: null
-                    border_left_width:
-                      class: _none
-                    border_left_color:
-                      class: null
-                    border_top_style:
-                      class: null
-                    border_top_width:
-                      class: _none
-                    border_top_color:
-                      class: null
-                    border_right_style:
-                      class: null
-                    border_right_width:
-                      class: _none
-                    border_right_color:
-                      class: null
-                    border_bottom_style:
-                      class: null
-                    border_bottom_width:
-                      class: _none
-                    border_bottom_color:
-                      class: null
-                    rounded_corner_top_left:
-                      class: _none
-                    rounded_corner_top_right:
-                      class: _none
-                    rounded_corner_bottom_left:
-                      class: _none
-                    rounded_corner_bottom_right:
-                      class: _none
-                  box_shadow:
-                    class: null
-                  scroll_effects:
-                    class: null
-              target_uuid: e95ba8a9-fcfa-4871-90cd-070a8605843c
+              target_uuid: 9aff518f-83d9-4820-905c-d404f477c202
         third_party_settings: {  }
     -
       section:
@@ -1273,7 +1177,7 @@ default:
               label_display: visible
               provider: layout_builder
               view_mode: full
-              block_revision_id: '5'
+              block_revision_id: '7'
               block_serialized: null
               context_mapping: {  }
             weight: 0
