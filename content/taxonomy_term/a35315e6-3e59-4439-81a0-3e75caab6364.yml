@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: a35315e6-3e59-4439-81a0-3e75caab6364
+  bundle: tags
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Tags'
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Global Audience'
+  weight:
+    -
+      value: 21
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /blog/tags/global-audience
+      langcode: en
+      pathauto: 1

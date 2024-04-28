@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 9a0b03d6-5f4b-49fd-b26b-f358488a6eb3
+  bundle: tags
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Tags'
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Responsive Design'
+  weight:
+    -
+      value: 23
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /blog/tags/responsive-design
+      langcode: en
+      pathauto: 1

@@ -7,6 +7,10 @@ _meta:
   depends:
     aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
     062724de-e3e9-4366-bb51-5c2b643ba521: media
+    64615b3b-3f8c-477e-8271-5469a8cbc75c: taxonomy_term
+    a35315e6-3e59-4439-81a0-3e75caab6364: taxonomy_term
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    2be88e51-f343-44f9-b199-bf7b41fc98db: taxonomy_term
 default:
   revision_uid:
     -
@@ -22,10 +26,10 @@ default:
       target_id: 1
   title:
     -
-      value: 'Lorem Ipsum Dolor Sit Amet'
+      value: 'Multilingual Websites Made Easy with Varbase'
   created:
     -
-      value: 1713453975
+      value: 1714312800
   promote:
     -
       value: true
@@ -38,6 +42,11 @@ default:
   moderation_state:
     -
       value: published
+  path:
+    -
+      alias: /blog/multilingual-websites-made-easy-varbase
+      langcode: en
+      pathauto: 1
   publish_state:
     -
       value: published
@@ -52,7 +61,7 @@ default:
       value: false
   body:
     -
-      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><hr><p>Cras vel augue at arcu sagittis malesuada. Vestibulum id purus urna. Pellentesque pulvinar in justo in semper. Fusce elit metus, tempor eu pellentesque facilisis, blandit id est. Quisque id ex ligula. Aliquam at velit vitae purus rutrum dignissim nec ac sapien. Mauris sed velit non neque porta euismod vitae ac mauris. Vivamus molestie eleifend ligula ac maximus.</p><blockquote><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non sapien lacinia, pellentesque elit sit amet, tempor orci.</strong></p><p>Quotee Name and Position</p></blockquote><p>Aenean velit augue, feugiat vel lectus et, aliquet ultrices mi. Nulla facilisi. Duis ornare, nisi eu sagittis luctus, enim lectus rhoncus enim, et blandit nisl dolor sit amet dui. Cras convallis malesuada ligula, in ullamcorper elit consectetur vitae. Donec maximus posuere sapien ac mollis. Nulla pellentesque, ligula eu volutpat efficitur, mauris neque consequat justo, quis vehicula erat ligula eu erat. Nam varius imperdiet tellus, eu placerat turpis tristique nec. Ut dignissim est ut facilisis viverra.</p><p>Donec pretium lectus ipsum, vitae faucibus justo blandit vel. Quisque maximus dignissim orci, id placerat magna pretium congue. Duis ac orci turpis. Nulla fermentum feugiat leo, vel venenatis nisl volutpat tincidunt. Nunc vestibulum faucibus urna, et placerat lacus. Aenean ac cursus lorem. Quisque varius nulla nec ipsum fringilla interdum. Sed ut velit dictum, scelerisque urna quis, aliquam urna. Donec sit amet magna semper, cursus urna ac, commodo libero. Nullam eu maximus erat. Vivamus sed ante in eros porttitor eleifend id a ante. Suspendisse dignissim tortor non egestas molestie. Etiam sed ultricies lectus. Donec elementum dolor sit amet diam egestas aliquam.</p><p>Pellentesque molestie libero sed augue gravida malesuada. Cras et erat augue. Maecenas libero velit, mollis non molestie sit amet, dignissim id tellus. Cras nec lobortis massa. Vestibulum condimentum suscipit fringilla. Donec risus magna, tincidunt eget nisi a, egestas lacinia sem. Quisque accumsan ex non mollis gravida.</p>'
+      value: '<h2>Introduction to Multilingual Capabilities:</h2><p>As businesses expand globally, the need to cater to diverse audiences becomes essential. Varbase simplifies the creation and management of multilingual websites. This blog post will detail the multilingual features of Varbase and demonstrate how easy it is to manage content in multiple languages.</p><h2>Setting Up Multilingual Support:</h2><p>Start by enabling the Multilingual modules in Varbase. These modules allow you to translate site interfaces, menus, and content. Configure language settings by adding the languages you need under Configuration &gt; Regional and Language. You can also set a default language and decide how content translation management should be handled.</p><h2>Creating and Managing Translated Content:</h2><p>Once your languages are set up, create your content in your default language and use the built-in interface to add translations. Varbase ensures that each translation is linked to the original content, making management straightforward. This feature is essential for keeping content consistent across different languages and simplifying updates.</p>'
       format: full_html
       summary: ''
   field_blog_categories:
@@ -61,6 +70,15 @@ default:
   field_media:
     -
       entity: 062724de-e3e9-4366-bb51-5c2b643ba521
+  field_tags:
+    -
+      entity: 64615b3b-3f8c-477e-8271-5469a8cbc75c
+    -
+      entity: a35315e6-3e59-4439-81a0-3e75caab6364
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 2be88e51-f343-44f9-b199-bf7b41fc98db
   field_yoast_seo:
     -
       status: '0'

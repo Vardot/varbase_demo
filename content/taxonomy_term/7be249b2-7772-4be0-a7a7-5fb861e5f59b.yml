@@ -1,0 +1,158 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7be249b2-7772-4be0-a7a7-5fb861e5f59b
+  bundle: tags
+  default_langcode: en
+default:
+  revision_user:
+    -
+      target_id: 1
+  revision_log_message:
+    -
+      value: 'Created new Tags'
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Support
+  weight:
+    -
+      value: 27
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Support | varbase10c1varbase_media_demo1'
+    -
+      tag: link
+      attributes:
+        rel: shortlink
+        href: 'http://default/node/2'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/node'
+    -
+      tag: meta
+      attributes:
+        name: generator
+        content: Varbase
+    -
+      tag: meta
+      attributes:
+        name: rights
+        content: '©2024 varbase10c1varbase_media_demo1. All rights reserved.'
+    -
+      tag: meta
+      attributes:
+        name: referrer
+        content: origin
+    -
+      tag: meta
+      attributes:
+        property: 'og:site_name'
+        content: varbase10c1varbase_media_demo1
+    -
+      tag: meta
+      attributes:
+        property: 'og:type'
+        content: website
+    -
+      tag: meta
+      attributes:
+        property: 'og:url'
+        content: 'http://default/node'
+    -
+      tag: meta
+      attributes:
+        property: 'og:title'
+        content: '| varbase10c1varbase_media_demo1'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image'
+        content: 'http://default/themes/contrib/vartheme_bs5/share-image.png'
+    -
+      tag: meta
+      attributes:
+        property: 'og:image:url'
+        content: 'http://default/themes/contrib/vartheme_bs5/share-image.png'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:card'
+        content: summary
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:title'
+        content: '| varbase10c1varbase_media_demo1'
+    -
+      tag: meta
+      attributes:
+        name: 'twitter:image'
+        content: 'http://default/themes/contrib/vartheme_bs5/share-image.png'
+    -
+      tag: meta
+      attributes:
+        name: '@type'
+        content: WebSite
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: name
+        content: varbase10c1varbase_media_demo1
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: url
+        content: 'http://default/'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: publisher
+        content:
+          '@type': Organization
+          name: varbase10c1varbase_media_demo1
+          url: 'http://default/'
+          logo:
+            '@type': ImageObject
+            url: 'http://default/themes/contrib/vartheme_bs5/logo.png'
+        group: schema_web_site
+        schema_metatag: true
+    -
+      tag: meta
+      attributes:
+        name: MobileOptimized
+        content: width
+    -
+      tag: meta
+      attributes:
+        name: HandheldFriendly
+        content: 'true'
+    -
+      tag: meta
+      attributes:
+        name: apple-mobile-web-app-capable
+        content: 'yes'
+  path:
+    -
+      alias: /blog/tags/support
+      langcode: en
+      pathauto: 1

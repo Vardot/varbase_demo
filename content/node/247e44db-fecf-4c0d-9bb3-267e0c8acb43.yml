@@ -7,6 +7,10 @@ _meta:
   depends:
     aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
     53e7e92c-6506-408b-89cc-2ec279a9ec92: media
+    928bc5c7-5c8a-47b8-9276-bfe804f52ec1: taxonomy_term
+    6cab6fc4-df88-4713-976c-69dae2751aa0: taxonomy_term
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    2be88e51-f343-44f9-b199-bf7b41fc98db: taxonomy_term
 default:
   revision_uid:
     -
@@ -22,10 +26,10 @@ default:
       target_id: 1
   title:
     -
-      value: 'Lorem Ipsum Dolor Sit Amet'
+      value: 'Customizing Your Website with Varbase: Flexibility and Freedom'
   created:
     -
-      value: 1713454360
+      value: 1714327200
   promote:
     -
       value: true
@@ -38,6 +42,11 @@ default:
   moderation_state:
     -
       value: published
+  path:
+    -
+      alias: /blog/customizing-your-website-varbase-flexibility-and-freedom
+      langcode: en
+      pathauto: 1
   publish_state:
     -
       value: published
@@ -52,7 +61,7 @@ default:
       value: false
   body:
     -
-      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><hr><p>Cras vel augue at arcu sagittis malesuada. Vestibulum id purus urna. Pellentesque pulvinar in justo in semper. Fusce elit metus, tempor eu pellentesque facilisis, blandit id est. Quisque id ex ligula. Aliquam at velit vitae purus rutrum dignissim nec ac sapien. Mauris sed velit non neque porta euismod vitae ac mauris. Vivamus molestie eleifend ligula ac maximus.</p><blockquote><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non sapien lacinia, pellentesque elit sit amet, tempor orci.</strong></p><p>Quotee Name and Position</p></blockquote><p>Aenean velit augue, feugiat vel lectus et, aliquet ultrices mi. Nulla facilisi. Duis ornare, nisi eu sagittis luctus, enim lectus rhoncus enim, et blandit nisl dolor sit amet dui. Cras convallis malesuada ligula, in ullamcorper elit consectetur vitae. Donec maximus posuere sapien ac mollis. Nulla pellentesque, ligula eu volutpat efficitur, mauris neque consequat justo, quis vehicula erat ligula eu erat. Nam varius imperdiet tellus, eu placerat turpis tristique nec. Ut dignissim est ut facilisis viverra.</p><p>Donec pretium lectus ipsum, vitae faucibus justo blandit vel. Quisque maximus dignissim orci, id placerat magna pretium congue. Duis ac orci turpis. Nulla fermentum feugiat leo, vel venenatis nisl volutpat tincidunt. Nunc vestibulum faucibus urna, et placerat lacus. Aenean ac cursus lorem. Quisque varius nulla nec ipsum fringilla interdum. Sed ut velit dictum, scelerisque urna quis, aliquam urna. Donec sit amet magna semper, cursus urna ac, commodo libero. Nullam eu maximus erat. Vivamus sed ante in eros porttitor eleifend id a ante. Suspendisse dignissim tortor non egestas molestie. Etiam sed ultricies lectus. Donec elementum dolor sit amet diam egestas aliquam.</p><p>Pellentesque molestie libero sed augue gravida malesuada. Cras et erat augue. Maecenas libero velit, mollis non molestie sit amet, dignissim id tellus. Cras nec lobortis massa. Vestibulum condimentum suscipit fringilla. Donec risus magna, tincidunt eget nisi a, egestas lacinia sem. Quisque accumsan ex non mollis gravida.</p>'
+      value: '<h2>Exploring Varbase’s Customization Capabilities:</h2><p>Customization is key to making a website fit your brand’s unique needs and style. Varbase’s flexible architecture allows you to tailor every aspect of your site, from themes and layouts to functionality.</p><h2>Step-by-Step Customization Using Varbase:</h2><p>Learn how to utilize the Layout Builder in Varbase to create custom page layouts. This tool allows you to drag and drop different elements, creating unique pages without needing to write code. Additionally, explore how to use Varbase’s sub-theming capabilities to alter CSS and JavaScript according to your branding needs.</p><h2>Real-World Customization Success Story:</h2><p>"A custom theme developed with Varbase elevated our brand and engaged our audience significantly better," remarks Lisa Green, a digital manager at Creative Solutions. "Varbase’s tools were intuitive and powerful, making the customization process straightforward even for our less technically inclined team members."</p>'
       format: full_html
       summary: ''
   field_blog_categories:
@@ -61,6 +70,15 @@ default:
   field_media:
     -
       entity: 53e7e92c-6506-408b-89cc-2ec279a9ec92
+  field_tags:
+    -
+      entity: 928bc5c7-5c8a-47b8-9276-bfe804f52ec1
+    -
+      entity: 6cab6fc4-df88-4713-976c-69dae2751aa0
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 2be88e51-f343-44f9-b199-bf7b41fc98db
   field_yoast_seo:
     -
       status: '0'

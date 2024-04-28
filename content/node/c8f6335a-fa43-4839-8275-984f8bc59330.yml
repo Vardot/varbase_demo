@@ -1,0 +1,88 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c8f6335a-fa43-4839-8275-984f8bc59330
+  bundle: varbase_blog
+  default_langcode: en
+  depends:
+    aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
+    e24ae49c-7ebb-4710-b985-5ef37aa07882: media
+    806bd3ed-b938-41dc-9b69-1307b6d8abb3: taxonomy_term
+    7be249b2-7772-4be0-a7a7-5fb861e5f59b: taxonomy_term
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    97930e77-4600-445f-83ad-1bd370e9bd7b: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created new Blog post'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Community Behind Varbase: Support and Collaboration'
+  created:
+    -
+      value: 1711627200
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/community-behind-varbase-support-and-collaboration
+      langcode: en
+      pathauto: 1
+  publish_state:
+    -
+      value: published
+  unpublish_state:
+    -
+      value: archived
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<h2>The Role of Community in Open Source Projects:</h2><p>Open-source projects thrive on their communities, and Varbase is no exception. The Varbase community is vibrant and supportive, filled with developers, designers, and users who are eager to help and innovate.</p><h2>Engaging with the Varbase Community:</h2><p>Get involved by participating in community forums, contributing to the project’s GitHub repository, or attending Varbase meetups and webinars. The community is a great resource for troubleshooting, sharing ideas, and finding collaboration opportunities.</p><h2>Learning from Community Contributions:</h2><p>Read about how Jane Wilson, a freelance developer, solved a complex problem with the help of the Varbase community. "The community not only helped me fix the issue but also showed me ways to make my site run more efficiently," she shares.</p>'
+      format: full_html
+      summary: ''
+  field_blog_categories:
+    -
+      entity: aca281a0-0968-4603-87b3-678d2781e275
+  field_media:
+    -
+      entity: e24ae49c-7ebb-4710-b985-5ef37aa07882
+  field_tags:
+    -
+      entity: 806bd3ed-b938-41dc-9b69-1307b6d8abb3
+    -
+      entity: 7be249b2-7772-4be0-a7a7-5fb861e5f59b
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 97930e77-4600-445f-83ad-1bd370e9bd7b
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+  layout_selection:
+    -
+      target_id: lead_media_1_column

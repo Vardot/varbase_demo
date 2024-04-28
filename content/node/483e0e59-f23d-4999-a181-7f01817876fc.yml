@@ -7,13 +7,17 @@ _meta:
   depends:
     aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
     4a63ee9d-5725-46b0-be84-b5730e7e0c78: media
+    7ed6cf56-7029-4eca-97cd-34d91c1c49e9: taxonomy_term
+    b3760aac-0df2-45ac-bb11-b243344b1db5: taxonomy_term
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    2be88e51-f343-44f9-b199-bf7b41fc98db: taxonomy_term
 default:
   revision_uid:
     -
       target_id: 1
   revision_log:
     -
-      value: 'Edited as a part of bulk operation. Field changed: field_blog_categories'
+      value: 'Created new Blog post'
   status:
     -
       value: true
@@ -22,10 +26,10 @@ default:
       target_id: 1
   title:
     -
-      value: 'Lorem Ipsum Dolor Sit Amet'
+      value: 'Integrating Third-Party Applications with Varbase'
   created:
     -
-      value: 1713453706
+      value: 1714219200
   promote:
     -
       value: true
@@ -38,6 +42,11 @@ default:
   moderation_state:
     -
       value: published
+  path:
+    -
+      alias: /blog/integrating-third-party-applications-varbase
+      langcode: en
+      pathauto: 1
   publish_state:
     -
       value: published
@@ -52,7 +61,7 @@ default:
       value: false
   body:
     -
-      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><hr><p>Cras vel augue at arcu sagittis malesuada. Vestibulum id purus urna. Pellentesque pulvinar in justo in semper. Fusce elit metus, tempor eu pellentesque facilisis, blandit id est. Quisque id ex ligula. Aliquam at velit vitae purus rutrum dignissim nec ac sapien. Mauris sed velit non neque porta euismod vitae ac mauris. Vivamus molestie eleifend ligula ac maximus.</p><blockquote><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non sapien lacinia, pellentesque elit sit amet, tempor orci.</strong></p><p>Quotee Name and Position</p></blockquote><p>Aenean velit augue, feugiat vel lectus et, aliquet ultrices mi. Nulla facilisi. Duis ornare, nisi eu sagittis luctus, enim lectus rhoncus enim, et blandit nisl dolor sit amet dui. Cras convallis malesuada ligula, in ullamcorper elit consectetur vitae. Donec maximus posuere sapien ac mollis. Nulla pellentesque, ligula eu volutpat efficitur, mauris neque consequat justo, quis vehicula erat ligula eu erat. Nam varius imperdiet tellus, eu placerat turpis tristique nec. Ut dignissim est ut facilisis viverra.</p><p>Donec pretium lectus ipsum, vitae faucibus justo blandit vel. Quisque maximus dignissim orci, id placerat magna pretium congue. Duis ac orci turpis. Nulla fermentum feugiat leo, vel venenatis nisl volutpat tincidunt. Nunc vestibulum faucibus urna, et placerat lacus. Aenean ac cursus lorem. Quisque varius nulla nec ipsum fringilla interdum. Sed ut velit dictum, scelerisque urna quis, aliquam urna. Donec sit amet magna semper, cursus urna ac, commodo libero. Nullam eu maximus erat. Vivamus sed ante in eros porttitor eleifend id a ante. Suspendisse dignissim tortor non egestas molestie. Etiam sed ultricies lectus. Donec elementum dolor sit amet diam egestas aliquam.</p><p>Pellentesque molestie libero sed augue gravida malesuada. Cras et erat augue. Maecenas libero velit, mollis non molestie sit amet, dignissim id tellus. Cras nec lobortis massa. Vestibulum condimentum suscipit fringilla. Donec risus magna, tincidunt eget nisi a, egestas lacinia sem. Quisque accumsan ex non mollis gravida.</p>'
+      value: '<h2>Benefits of Integration with Third-Party Services:</h2><p>Enhancing your Varbase site by integrating it with third-party applications can expand its functionality and streamline operations. Whether it’s marketing tools, analytics, or social media platforms, Varbase supports seamless integration.</p><h2>How to Integrate Popular Applications with Varbase:</h2><p>This guide will show you how to integrate CRM systems like Salesforce, social media platforms like Twitter and Facebook, and marketing tools such as Mailchimp. Utilize modules available within Varbase or Drupal’s extensive module community to connect your site with these services effortlessly.</p><h2>Testimonial on Effective Integration:</h2><p>"Integrating our Varbase site with our CRM and email marketing platforms has saved us countless hours in data management and marketing operations," notes Tom Clark, IT director at MarketGrowth.</p>'
       format: full_html
       summary: ''
   field_blog_categories:
@@ -61,6 +70,15 @@ default:
   field_media:
     -
       entity: 4a63ee9d-5725-46b0-be84-b5730e7e0c78
+  field_tags:
+    -
+      entity: 7ed6cf56-7029-4eca-97cd-34d91c1c49e9
+    -
+      entity: b3760aac-0df2-45ac-bb11-b243344b1db5
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 2be88e51-f343-44f9-b199-bf7b41fc98db
   field_yoast_seo:
     -
       status: '0'

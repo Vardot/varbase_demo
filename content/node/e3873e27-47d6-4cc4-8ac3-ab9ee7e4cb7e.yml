@@ -7,6 +7,10 @@ _meta:
   depends:
     aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
     d810838b-aef1-4555-b48b-47e8d98188f6: media
+    867c0d89-97ae-4b56-a6d4-c1b1c52228dc: taxonomy_term
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    2be88e51-f343-44f9-b199-bf7b41fc98db: taxonomy_term
+    2d648a2e-7ce1-4fa2-889b-7f8e68cf18b5: taxonomy_term
 default:
   revision_uid:
     -
@@ -22,10 +26,10 @@ default:
       target_id: 1
   title:
     -
-      value: 'Lorem Ipsum Dolor Sit Amet'
+      value: 'How Varbase Optimizes Your Site for Search Engines'
   created:
     -
-      value: 1713454245
+      value: 1714320000
   promote:
     -
       value: true
@@ -38,6 +42,11 @@ default:
   moderation_state:
     -
       value: published
+  path:
+    -
+      alias: /blog/how-varbase-optimizes-your-site-search-engines
+      langcode: en
+      pathauto: 1
   publish_state:
     -
       value: published
@@ -52,7 +61,7 @@ default:
       value: false
   body:
     -
-      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.</p><hr><p>Cras vel augue at arcu sagittis malesuada. Vestibulum id purus urna. Pellentesque pulvinar in justo in semper. Fusce elit metus, tempor eu pellentesque facilisis, blandit id est. Quisque id ex ligula. Aliquam at velit vitae purus rutrum dignissim nec ac sapien. Mauris sed velit non neque porta euismod vitae ac mauris. Vivamus molestie eleifend ligula ac maximus.</p><blockquote><p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non sapien lacinia, pellentesque elit sit amet, tempor orci.</strong></p><p>Quotee Name and Position</p></blockquote><p>Aenean velit augue, feugiat vel lectus et, aliquet ultrices mi. Nulla facilisi. Duis ornare, nisi eu sagittis luctus, enim lectus rhoncus enim, et blandit nisl dolor sit amet dui. Cras convallis malesuada ligula, in ullamcorper elit consectetur vitae. Donec maximus posuere sapien ac mollis. Nulla pellentesque, ligula eu volutpat efficitur, mauris neque consequat justo, quis vehicula erat ligula eu erat. Nam varius imperdiet tellus, eu placerat turpis tristique nec. Ut dignissim est ut facilisis viverra.</p><p>Donec pretium lectus ipsum, vitae faucibus justo blandit vel. Quisque maximus dignissim orci, id placerat magna pretium congue. Duis ac orci turpis. Nulla fermentum feugiat leo, vel venenatis nisl volutpat tincidunt. Nunc vestibulum faucibus urna, et placerat lacus. Aenean ac cursus lorem. Quisque varius nulla nec ipsum fringilla interdum. Sed ut velit dictum, scelerisque urna quis, aliquam urna. Donec sit amet magna semper, cursus urna ac, commodo libero. Nullam eu maximus erat. Vivamus sed ante in eros porttitor eleifend id a ante. Suspendisse dignissim tortor non egestas molestie. Etiam sed ultricies lectus. Donec elementum dolor sit amet diam egestas aliquam.</p><p>Pellentesque molestie libero sed augue gravida malesuada. Cras et erat augue. Maecenas libero velit, mollis non molestie sit amet, dignissim id tellus. Cras nec lobortis massa. Vestibulum condimentum suscipit fringilla. Donec risus magna, tincidunt eget nisi a, egestas lacinia sem. Quisque accumsan ex non mollis gravida.</p>'
+      value: "<h2>Introduction to SEO Optimization:</h2><p>Search Engine Optimization (SEO) is crucial for any website aiming to increase visibility and attract more visitors. Varbase is equipped with powerful SEO tools designed to help your website rank better in search results. This post will explore the integrated SEO tools that Varbase offers and how they can help improve your site's SEO performance.</p><h2>Implementing SEO Tools in Varbase:</h2><p>First, utilize the Metatag module to manage meta tags for all your content automatically. You can set global configurations that apply default tags across your site or customize them for individual pages. Also, make sure to enable the XML Sitemap module, which helps search engines better index your site by providing a map of all your pages. For finer control over URLs, use the Pathauto module in Varbase, which automatically generates search-engine-friendly URLs based on content titles.</p><h2>Enhancing Content for SEO:</h2><p>Beyond technical SEO, content optimization is vital. Varbase supports structured content practices that improve SEO, such as using heading tags and adding alt text to images. Regularly update your content and utilize Varbase’s built-in analytics tools to monitor how changes affect your SEO performance, adjusting your strategy accordingly.</p>"
       format: full_html
       summary: ''
   field_blog_categories:
@@ -61,6 +70,15 @@ default:
   field_media:
     -
       entity: d810838b-aef1-4555-b48b-47e8d98188f6
+  field_tags:
+    -
+      entity: 867c0d89-97ae-4b56-a6d4-c1b1c52228dc
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 2be88e51-f343-44f9-b199-bf7b41fc98db
+    -
+      entity: 2d648a2e-7ce1-4fa2-889b-7f8e68cf18b5
   field_yoast_seo:
     -
       status: '0'

@@ -1,0 +1,91 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2139660d-0bb7-47e8-b762-c0d4d682256c
+  bundle: varbase_blog
+  default_langcode: en
+  depends:
+    aca281a0-0968-4603-87b3-678d2781e275: taxonomy_term
+    bffb4783-482c-4766-b3cf-56d55e43e50d: media
+    c0f30568-59f8-4023-b47e-7c52bc6f2388: taxonomy_term
+    0eeaa5f3-6266-477e-a84e-4aa6f2fad302: taxonomy_term
+    ec20de9b-8604-4936-a1a4-d058946e1be9: taxonomy_term
+    d6e89633-1d58-42a7-920b-640632fe61f4: taxonomy_term
+    f24953a5-3e05-40b9-a12b-5e21676d7a96: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  revision_log:
+    -
+      value: 'Created new Blog post'
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Getting Started with Varbase: A Step-by-Step Guide for First-Time Users'
+  created:
+    -
+      value: 1711713600
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /blog/getting-started-varbase-step-step-guide-first-time-users
+      langcode: en
+      pathauto: 1
+  publish_state:
+    -
+      value: published
+  unpublish_state:
+    -
+      value: archived
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: "<h2>Introduction to Getting Started:</h2><p>If you're new to Varbase, you'll appreciate how straightforward it is to set up and configure compared to a standard Drupal installation. This guide will walk you through the process from downloading Varbase to setting up your first website, highlighting the ease of use and powerful features designed for users of all skill levels.</p><h2>Detailed Setup Instructions:</h2><p>Begin with downloading Varbase from the official Drupal website or GitHub repository. Follow the installation instructions to get your environment set up. Once installed, navigate through the admin dashboard to familiarize yourself with its interface. Varbase's dashboard is enriched with user-friendly tools and pre-set configurations which simplify site management tasks like theme selection, module management, and content creation.</p><h2>Creating Your First Page:</h2><p>Let’s create your first page on Varbase. Navigate to Content &gt; Add content &gt; Page. Here, you can add text, images, and other media via the Drupal Block system, which Varbase enhances with additional layout and design options. Customize your page with Varbase’s various block types, and see how easy it is to build an attractive, functional layout.</p>"
+      format: full_html
+      summary: ''
+  field_blog_categories:
+    -
+      entity: aca281a0-0968-4603-87b3-678d2781e275
+  field_media:
+    -
+      entity: bffb4783-482c-4766-b3cf-56d55e43e50d
+  field_tags:
+    -
+      entity: c0f30568-59f8-4023-b47e-7c52bc6f2388
+    -
+      entity: 0eeaa5f3-6266-477e-a84e-4aa6f2fad302
+    -
+      entity: ec20de9b-8604-4936-a1a4-d058946e1be9
+    -
+      entity: d6e89633-1d58-42a7-920b-640632fe61f4
+    -
+      entity: f24953a5-3e05-40b9-a12b-5e21676d7a96
+  field_yoast_seo:
+    -
+      status: '0'
+      focus_keyword: ''
+  layout_selection:
+    -
+      target_id: lead_media_1_column
