@@ -21,7 +21,7 @@ default:
       value: 'Security Standards'
   reusable:
     -
-      value: false
+      value: true
   revision_translation_affected:
     -
       value: true

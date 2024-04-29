@@ -19,7 +19,7 @@ default:
       value: 'Kick-start Your Journey with us Today!'
   reusable:
     -
-      value: false
+      value: true
   content_translation_source:
     -
       value: und
