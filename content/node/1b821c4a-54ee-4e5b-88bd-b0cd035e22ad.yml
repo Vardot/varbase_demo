@@ -57,7 +57,7 @@ default:
       value: false
   body:
     -
-      value: '<h2>Showcasing Varbase Success Stories:</h2><p>This blog post will highlight several case studies of successful websites that have been built using Varbase. From small businesses to large corporations, Varbase has played a crucial role in building diverse and effective online presences.</p><h2>Detailed Case Study Analysis:</h2><p>Explore a detailed case study of a non-profit organization that used Varbase to double their online engagement and streamline their content management processes. Learn how Varbase’s features were tailored to meet their specific needs and the outcomes of their initiatives.</p><h2>Inspirational Outcomes from Varbase Users:</h2><p>Hear from multiple users who have seen significant improvements in traffic, user engagement, and operational</p>'
+      value: '<h3>Showcasing Varbase Success Stories:</h3><p>This blog post will highlight several case studies of successful websites that have been built using Varbase. From small businesses to large corporations, Varbase has played a crucial role in building diverse and effective online presences.</p><h3>Detailed Case Study Analysis:</h3><p>Explore a detailed case study of a non-profit organization that used Varbase to double their online engagement and streamline their content management processes. Learn how Varbase’s features were tailored to meet their specific needs and the outcomes of their initiatives.</p><h3>Inspirational Outcomes from Varbase Users:</h3><p>Hear from multiple users who have seen significant improvements in traffic, user engagement, and operational</p>'
       format: full_html
       summary: ''
   field_blog_categories:

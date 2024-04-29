@@ -34,7 +34,7 @@ default:
       value: 1713688415
   body:
     -
-      value: '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>'
+      value: '<p>Begin your adventure with Varbase Starter Kit, leveraging the ultimate Drupal CMS to propel your digital journey forward with ease and efficiency.</p>'
       format: full_html
       summary: ''
   field_buttons:
