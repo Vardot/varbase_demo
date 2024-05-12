@@ -6,17 +6,6 @@ package: 'Varbase Demos'
 dependencies:
   - default_content:default_content
   - varbase_media_demo:varbase_media_demo
-  - editoria11y:editoria11y
   - vmi:vmi
   - varbase_heroslider:varbase_heroslider
-  - varbase_carousels:varbase_carousels
-  - varbase_search:varbase_search
   - varbase_blog:varbase_blog
-  - varbase_auth:varbase_auth
-  - social_auth_google:social_auth_google
-  - social_auth_twitter:social_auth_twitter
-  - social_auth_linkedin:social_auth_linkedin
-  - social_auth_facebook:social_auth_facebook
-  - varbase_api:varbase_api
-  - google_analytics:google_analytics
-  - google_tag:google_tag
