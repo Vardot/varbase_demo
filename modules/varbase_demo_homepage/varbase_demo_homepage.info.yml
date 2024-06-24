@@ -3,6 +3,4 @@ description: Varbase default homepage content when the Varbase Demo module is en
 type: module
 hidden: TRUE
 package: Varbase
-core_version_requirement: ~10
-dependencies:
-  - default_content:default_content
+core_version_requirement: ~10.3.0 || ~11.0.0
