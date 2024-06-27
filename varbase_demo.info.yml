@@ -4,6 +4,7 @@ type: module
 core_version_requirement: ~10.3.0 || ~11.0.0
 package: 'Varbase Demos'
 dependencies:
+  - default_content:default_content
   - varbase_media_demo:varbase_media_demo
   - vmi:vmi
   - varbase_heroslider:varbase_heroslider
