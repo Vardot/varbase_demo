@@ -1,7 +1,7 @@
 name: Varbase Demo
 description: If you're evaluating Varbase, installing demo content will help you get an idea of how Varbase works, and what features are included.
 type: module
-core_version_requirement: ~10.3.0 || ~11.0.0
+core_version_requirement: ~10.4.0 || ~11.1.0
 package: 'Varbase Demos'
 dependencies:
   - default_content:default_content
