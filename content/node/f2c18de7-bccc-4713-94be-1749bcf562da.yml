@@ -48,7 +48,7 @@ default:
       value: "Elevate your digital experience with Varbase's dynamic design system, seamlessly blending aesthetic appeal with unparalleled functionality. Unleash the power of intuitive design for a compelling web presence."
   field_link:
     -
-      uri: 'internal:#'
+      uri: '/blog/why-varbase-ultimate-drupal-distribution-accelerated-development'
       title: 'Read more'
       options: {  }
   field_media_single:
