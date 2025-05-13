@@ -49,7 +49,7 @@ default:
   field_link:
     -
       uri: '/blog/why-varbase-ultimate-drupal-distribution-accelerated-development'
-      title: 'Read more'
+      title: 'Learn more'
       options: {  }
   field_media_single:
     -
