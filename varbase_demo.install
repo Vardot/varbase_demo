@@ -22,6 +22,14 @@ function varbase_demo_install() {
     ->getInstanceFromDefinition(EntityDefinitionUpdateManager::class)
     ->applyUpdates();
 
+
+  // Clear plugin caches to ensure field_block plugins are available
+  // for demo content that references them.
+  \Drupal::service('plugin.cache_clearer')->clearCachedDefinitions();
+  if (\Drupal::hasService('plugin.manager.block')) {
+    \Drupal::service('plugin.manager.block')->clearCachedDefinitions();
+  }
+
   // Set front page to "/node".
   // Issue #3188641: Change the set front page to "/node" process from
   // using static node id to front page path by the alias.
