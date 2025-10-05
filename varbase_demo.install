@@ -7,8 +7,6 @@
 
 use Vardot\Entity\EntityDefinitionUpdateManager;
 use Drupal\path_alias\Entity\PathAlias;
-use Drupal\Core\Recipe\Recipe;
-use Drupal\Core\Recipe\RecipeRunner;
 
 /**
  * Implements hook_install().
