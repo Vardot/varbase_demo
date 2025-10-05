@@ -1,0 +1,19 @@
+# Yarn
+.yarn/
+node_modules/
+yarn-error.log
+.pnp*
+
+# Composer
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
