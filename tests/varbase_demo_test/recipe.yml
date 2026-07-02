@@ -1,0 +1,30 @@
+name: 'Varbase Demo Test'
+description: 'Provisions a Standard site with a slim "Demo page" content type (title + required Body) representative of the demo content the Varbase Demo module ships, creates a published demo article, renders content forms with the admin theme, and grants the create/edit/delete Demo page permissions to the Varbase editorial roles. This slim recipe creates the content under test without enabling the full Varbase demo-content dependency stack, so the browser suite stays inside the CI runner time budget.'
+type: 'Testing'
+install:
+  - node
+  - text
+  - field
+  - menu_ui
+config:
+  strict: false
+  actions:
+    node.settings:
+      simpleConfigUpdate:
+        use_admin_theme: true
+    user.role.editor:
+      grantPermissions:
+        - 'access content'
+        - 'create varbase_demo_page content'
+        - 'edit any varbase_demo_page content'
+        - 'delete any varbase_demo_page content'
+    user.role.content_admin:
+      grantPermissions:
+        - 'create varbase_demo_page content'
+        - 'edit any varbase_demo_page content'
+        - 'delete any varbase_demo_page content'
+    user.role.site_admin:
+      grantPermissions:
+        - 'create varbase_demo_page content'
+        - 'edit any varbase_demo_page content'
+        - 'delete any varbase_demo_page content'

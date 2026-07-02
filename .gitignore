@@ -17,3 +17,6 @@ vendor/
 # OS
 .DS_Store
 Thumbs.db
+
+# gitlab-ci-local runner artifacts
+.gitlab-ci-local/

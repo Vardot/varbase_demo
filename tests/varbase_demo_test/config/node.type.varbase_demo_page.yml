@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Demo page'
+type: varbase_demo_page
+description: 'A slim demo page content type used by the Varbase Demo automated test suite to exercise the module admin pages, a rendered demo node and the content create-access matrix.'
+help: 'Create a Demo page to render representative Varbase demo content in the automated test suite.'
+new_revision: true
+preview_mode: 1
+display_submitted: false

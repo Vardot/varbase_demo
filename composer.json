@@ -1,23 +1,30 @@
 {
-  "name": "drupal/varbase_demo",
-  "description": "If you're evaluating Varbase, installing demo content will help you get an idea of how Varbase works, and what features are included.",
-  "type": "drupal-module",
-  "homepage": "https://www.drupal.org/project/varbase_demo",
-  "license": "GPL-2.0-or-later",
-  "authors": [
-    {
-      "name": "Vardot",
-      "homepage": "https://www.drupal.org/vardot",
-      "role": "Maintainer"
+    "name": "drupal/varbase_demo",
+    "description": "If you're evaluating Varbase, installing demo content will help you get an idea of how Varbase works, and what features are included.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/varbase_demo",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Vardot",
+            "homepage": "https://www.drupal.org/vardot",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/varbase_demo",
+        "source": "https://git.drupalcode.org/project/varbase_demo"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/core": "~11.4.0",
+        "drupal/default_content": "~2.0.0-beta1",
+        "drupal/varbase_media": "~10.1.0",
+        "drupal/varbase_media_demo": "~10.1.0",
+        "drupal/vmi": "~4.0.0",
+        "drupal/varbase_heroslider": "~1.1.0",
+        "drupal/varbase_blog": "~10.1.0",
+        "vardot/entity-definition-update-manager": "~1"
     }
-  ],
-  "support": {
-    "issues": "https://www.drupal.org/project/issues/varbase_demo",
-    "source": "https://git.drupalcode.org/project/varbase_demo"
-  },
-  "require": {
-    "drupal/core": "~11.3.0",
-    "drupal/varbase_media": "~10.1.0",
-    "drupal/varbase_media_demo": "~10.1.0"
-  }
 }

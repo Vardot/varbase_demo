@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.varbase_demo_page.body
+    - node.type.varbase_demo_page
+  module:
+    - text
+    - user
+id: node.varbase_demo_page.default
+targetEntityType: node
+bundle: varbase_demo_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
