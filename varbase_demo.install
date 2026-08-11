@@ -6,6 +6,7 @@
  */
 
 use Vardot\Entity\EntityDefinitionUpdateManager;
+use Drupal\node\NodeAccessRebuild;
 use Drupal\path_alias\Entity\PathAlias;
 
 /**
@@ -74,7 +75,7 @@ function varbase_demo_install() {
   \Drupal::service('plugin.manager.menu.link')->rebuild();
 
   // Rebuild permissions. The content access permissions need to be rebuilt.
-  node_access_rebuild();
+  \Drupal::service(NodeAccessRebuild::class)->rebuild();
 
   // Rebuild the menu router based on all rebuilt data.
   // Important: This rebuild must happen last, so the menu router is guaranteed
